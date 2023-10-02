@@ -338,3 +338,23 @@ x==========x]
 [2023-10-02 22:00:34,550: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
 
 x==========x]
+[2023-10-02 22:59:47,469: INFO: 2506235944: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-10-02 22:59:47,475: ERROR: 2506235944: name 'ModelTrainerTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\preet\AppData\Local\Temp\ipykernel_9440\2506235944.py", line 4, in <module>
+    data_ingestion = ModelTrainerTrainingPipeline()
+NameError: name 'ModelTrainerTrainingPipeline' is not defined
+[2023-10-02 23:00:24,765: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-02 23:00:24,780: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 23:00:24,866: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 23:00:24,876: INFO: common: created directory at: artifacts]
+[2023-10-02 23:00:24,884: INFO: common: created directory at: artifacts/model_trainer]
+[2023-10-02 23:03:07,956: INFO: main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2023-10-02 23:03:07,989: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-02 23:03:07,997: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 23:03:08,018: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 23:03:08,024: INFO: common: created directory at: artifacts]
+[2023-10-02 23:03:08,030: INFO: common: created directory at: artifacts/model_trainer]
+[2023-10-02 23:03:08,135: INFO: main: >>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
