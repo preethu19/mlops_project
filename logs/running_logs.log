@@ -1,1 +1,105 @@
 [2023-10-02 17:58:16,993: INFO: main: Welcome to our custom logging]
+[2023-10-02 18:50:48,715: INFO: 2805191277: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2023-10-02 18:50:48,755: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-02 18:50:48,767: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 18:50:48,775: ERROR: 2805191277: yaml file is empty]
+Traceback (most recent call last):
+  File "c:\users\preet\mlops_project\src\mlProject\utils\common.py", line 32, in read_yaml
+    return ConfigBox(content)
+  File "box\box.py", line 259, in box.box.Box.__init__
+box.exceptions.BoxValueError: First argument must be mapping or iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\preet\AppData\Local\Temp\ipykernel_24016\2805191277.py", line 20, in <module>
+    obj.main()
+  File "C:\Users\preet\AppData\Local\Temp\ipykernel_24016\2805191277.py", line 8, in main
+    config = ConfigurationManager()
+  File "C:\Users\preet\AppData\Local\Temp\ipykernel_24016\2582655453.py", line 9, in __init__
+    self.params = read_yaml(params_filepath)
+  File "c:\Users\preet\mlops_project\venv\lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+  File "c:\users\preet\mlops_project\src\mlProject\utils\common.py", line 34, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2023-10-02 18:52:12,349: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-02 18:52:12,359: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 18:53:40,637: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-02 18:53:40,673: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 18:53:40,685: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 18:53:40,694: INFO: common: created directory at: artifacts]
+[2023-10-02 18:53:40,701: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-02 18:53:41,928: INFO: 2280763589: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6030:28FA:A67BC:C7ED1:651AC44E
+Accept-Ranges: bytes
+Date: Mon, 02 Oct 2023 13:23:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10232-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1696253021.075342,VS0,VE508
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ab9d6c71913d966847b69f862a3cd84aa4c77ce3
+Expires: Mon, 02 Oct 2023 13:28:41 GMT
+Source-Age: 0
+
+]
+[2023-10-02 19:08:19,340: INFO: main: >>>>>> stage data ingestion started <<<<<<]
+[2023-10-02 19:08:19,352: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-02 19:08:19,358: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 19:08:19,362: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 19:08:19,364: INFO: common: created directory at: artifacts]
+[2023-10-02 19:08:19,368: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-02 19:08:19,374: INFO: data_ingestion: File already exists of size: ~ 23 KB]
+[2023-10-02 19:08:19,398: INFO: main: >>>>>> stage data ingestion completed <<<<<<
+
+x==========x]
+[2023-10-02 19:08:40,084: INFO: main: >>>>>> stage data ingestion started <<<<<<]
+[2023-10-02 19:08:40,096: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2023-10-02 19:08:40,101: INFO: common: yaml file: params.yaml loaded successfully]
+[2023-10-02 19:08:40,106: INFO: common: yaml file: schema.yaml loaded successfully]
+[2023-10-02 19:08:40,113: INFO: common: created directory at: artifacts]
+[2023-10-02 19:08:40,117: INFO: common: created directory at: artifacts/data_ingestion]
+[2023-10-02 19:08:41,067: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6030:28FA:A67BC:C7ED1:651AC44E
+Accept-Ranges: bytes
+Date: Mon, 02 Oct 2023 13:38:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10229-MAA
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1696253920.426015,VS0,VE282
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9cac573a87af12d145e815eac453a41fc9b70068
+Expires: Mon, 02 Oct 2023 13:43:40 GMT
+Source-Age: 0
+
+]
+[2023-10-02 19:08:41,136: INFO: main: >>>>>> stage data ingestion completed <<<<<<
+
+x==========x]
