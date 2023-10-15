@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/preet/mlops_project/mlruns/0/6d9887a88c1a46139eb318893790acab/artifacts
+end_time: 1696269784358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6d9887a88c1a46139eb318893790acab
+run_name: suave-mule-594
+run_uuid: 6d9887a88c1a46139eb318893790acab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696269752739
+status: 3
+tags: []
+user_id: preet

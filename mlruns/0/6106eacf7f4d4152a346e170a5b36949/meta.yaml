@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/preet/mlops_project/mlruns/0/6106eacf7f4d4152a346e170a5b36949/artifacts
+end_time: 1696763802195
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6106eacf7f4d4152a346e170a5b36949
+run_name: blushing-hog-397
+run_uuid: 6106eacf7f4d4152a346e170a5b36949
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696763771233
+status: 3
+tags: []
+user_id: preet

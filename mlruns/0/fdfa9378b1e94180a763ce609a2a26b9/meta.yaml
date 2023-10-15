@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/preet/mlops_project/mlruns/0/fdfa9378b1e94180a763ce609a2a26b9/artifacts
+end_time: 1696269694152
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fdfa9378b1e94180a763ce609a2a26b9
+run_name: aged-gnu-598
+run_uuid: fdfa9378b1e94180a763ce609a2a26b9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696269662010
+status: 3
+tags: []
+user_id: preet

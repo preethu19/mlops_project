@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/preet/mlops_project/mlruns/0/631b6371f1254b4c9a023dc1bba02ca7/artifacts
+end_time: 1696270507729
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 631b6371f1254b4c9a023dc1bba02ca7
+run_name: learned-eel-849
+run_uuid: 631b6371f1254b4c9a023dc1bba02ca7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1696270488987
+status: 3
+tags: []
+user_id: preet
