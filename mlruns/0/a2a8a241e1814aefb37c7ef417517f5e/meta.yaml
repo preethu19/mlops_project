@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/preet/mlops_project/mlruns/0/a2a8a241e1814aefb37c7ef417517f5e/artifacts
+end_time: 1697378544495
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a2a8a241e1814aefb37c7ef417517f5e
+run_name: zealous-lamb-444
+run_uuid: a2a8a241e1814aefb37c7ef417517f5e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1697378513449
+status: 3
+tags: []
+user_id: preet
